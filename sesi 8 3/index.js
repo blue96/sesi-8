@@ -11,4 +11,5 @@ const onSubmit = (event) => {
     event.preventDefault();
     let txtKalimat = document.getElementById('txtKalimat').value;
     document.getElementById('hasil').innerHTML = regexName(txtKalimat);
+    console.log(regexName(txtKalimat));
 }

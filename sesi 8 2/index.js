@@ -11,4 +11,5 @@ const onSubmit = (event) => {
     event.preventDefault();
     let txtNoTelp = document.getElementById('txtNoTelp').value;
     document.getElementById('hasil').innerHTML = regexName(txtNoTelp);
+    console.log(regexName(txtNoTelp));
 }
