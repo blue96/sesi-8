@@ -8,3 +8,9 @@ function regexName (name){
 }
 
 console.log(regexName('Pascalasdfas'));
+
+const onSubmit = (event) => {
+    event.preventDefault();
+    let txtKata = document.getElementById('txtKata').value;
+    document.getElementById('hasil').innerHTML = regexName(txtKata);
+}
